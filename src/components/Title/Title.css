@@ -1,0 +1,26 @@
+.title {
+  color: #bb0000;
+  padding-top: 30px;
+  font-size: 60px;
+  width: 50%;
+  text-align: left;
+  margin-left: 30px;
+}
+
+.subTitle {
+  color: #666666;
+  width: 50%;
+  text-align: left;
+  margin-left: 60px;
+  font-size: 22px;
+}
+
+.subTitle a:active, .subTitle a {
+  color: #666666;
+  text-decoration: none;
+}
+.subTitle a:hover {
+  color: #ffffff;
+  text-decoration: none;
+}
+

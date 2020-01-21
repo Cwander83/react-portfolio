@@ -1,0 +1,17 @@
+{
+  "data": [
+    {
+      "schools": [
+        { "name": "valencia", "year": 2019 },
+        { "name": "UCF Bootcamp", "year": 2019 },
+        { "name": "Pickerington High", "year": 2019 }
+      ]
+    },
+    {
+      "work": [
+        { "name": "freelance", "job": "developer" },
+        { "name": "citywalk", "job": "bartender" }
+      ]
+    }
+  ]
+}

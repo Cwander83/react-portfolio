@@ -1,0 +1,19 @@
+.App {
+  text-align: center;
+  background-image: url("../assets/images/background.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+
+nav {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  max-width: 250px;
+  float: left;
+}

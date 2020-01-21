@@ -1,0 +1,6 @@
+.bodyContain {
+  margin: auto;
+  max-width: 1200px;
+
+  margin-top: calc(100px);
+}
