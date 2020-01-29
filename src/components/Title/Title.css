@@ -15,7 +15,8 @@
   font-size: 22px;
 }
 
-.subTitle a:active, .subTitle a {
+.subTitle a:active,
+.subTitle a {
   color: #666666;
   text-decoration: none;
 }

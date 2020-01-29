@@ -1,9 +1,0 @@
-.cockpit {
-  width: calc(70% - 30px);
-  height: 500px;
-  float: right;
-  border: 1px solid white;
-  margin-right: 30px;
-  background-color: rgba(0, 0, 0, 0.6);
-  color: #ffffff;
-}

@@ -1,20 +1,18 @@
-import React, { useState, useEffect } from "react";
-
-import { BrowserRouter as Router } from "react-router-dom";
+import React, { useState } from "react";
 
 import "./App.css";
 
 import Title from "../components/Title/Title";
-import Button from "../components/Button/Button";
-import Cockpit from "../components/Cockpit/Cockpit";
-import BodyContainer from "../containers/BodyContainer/BodyContainer";
 
-import jsonData from "../assets/data.json";
+import Carousel from "../components/Carousel/Carousel";
+
+// import jsonData from "../assets/data.json";
 
 const App = () => {
-  const [data, setData] = useState({
-    data: []
-  });
+  // const [data, setData] = useState({
+  //   data: []
+  // });
+
   const [pageState] = useState({
     pages: [
       { page: "about" },
@@ -26,30 +24,16 @@ const App = () => {
     ]
   });
 
-  useEffect(() => {
-    setData({ data: jsonData.data });
-  }, []);
-
-  console.log(data.data[0]);
-
-  // nav area connecting Button map
-  let navBtns = (
-    <nav>
-      <Button pages={pageState.pages} />
-    </nav>
-  );
+  // useEffect(() => {
+  //   setData({ data: jsonData.data });
+  // }, []);
 
   return (
-    <Router>
-      <div className="App">
-        <Title />
-        <BodyContainer>
-          {navBtns}
+    <div className="App">
+      <Title />
 
-          <Cockpit />
-        </BodyContainer>
-      </div>
-    </Router>
+      <Carousel pages={pageState.pages} />
+    </div>
   );
 };
 

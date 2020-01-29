@@ -1,23 +1,23 @@
 import React, { Fragment } from "react";
-import { NavLink } from "react-router-dom";
 
 import "./Button.css";
 
 const button = props => {
-  console.log(props.pages);
+  console.log(props);
 
   return (
     <Fragment>
       {props.pages.map((page, i) => {
         return (
-          <NavLink
-            activeClassName="selected"
-            to={page.page}
+          <button
+            type="submit"
+            value={i + 1}
             key={i}
             className="button"
+            onClick={value => props.click(value)}
           >
-            <span> {page.page}</span>
-          </NavLink>
+            <span>{page.page}</span>
+          </button>
         );
       })}
     </Fragment>

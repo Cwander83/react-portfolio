@@ -2,12 +2,11 @@
   border-radius: 4px;
   background-color: transparent;
   border: none;
-
   color: #ffffff;
   text-align: center;
   font-size: 28px;
   padding: 20px;
-  width: 200px;
+  max-width: 200px;
   transition: all 0.5s;
   cursor: pointer;
   margin: 5px;
@@ -18,25 +17,26 @@
   display: inline-block;
   position: relative;
   transition: 0.5s;
+  pointer-events: none;
 }
 
-.button span:after {
+/* .button span:after {
   content: "\00bb";
   position: absolute;
   opacity: 0;
   top: 0;
   right: -20px;
   transition: 0.5s;
-}
+} */
 
-.button:hover span {
+/* .button:hover span {
   padding-right: 25px;
-}
-
+} */
+/* 
 .button:hover span:after {
   opacity: 1;
   right: 0;
-}
+} */
 
 .button:active {
   background-color: #666666;
@@ -45,4 +45,18 @@
 }
 .selected {
   border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+nav {
+  display: flex;
+
+  margin-top: 20px rgba(5, 5, 5, 0.3);
+  text-align: center;
+  justify-content: center;
+  /* border-bottom: solid rgba(40, 40, 40, 0.3) 1px;
+  border-left: solid rgba(40, 40, 40, 0.3) 1px;
+  border-right: solid rgba(40, 40, 40, 0.3) 1px; */
+  /* border-radius: 15px; */
+  /* box-shadow: 0px 5px black; */
+  background-color: rgba(5, 5, 5, 0.3);
 }
