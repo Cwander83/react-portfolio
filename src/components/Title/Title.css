@@ -8,8 +8,8 @@
 }
 
 .subTitle {
-  color: #666666;
-  width: 50%;
+  color: #d1d1d1;
+ 
   text-align: left;
   margin-left: 60px;
   font-size: 22px;
@@ -17,11 +17,10 @@
 
 .subTitle a:active,
 .subTitle a {
-  color: #666666;
+  color: #d1d1d1;
   text-decoration: none;
 }
 .subTitle a:hover {
   color: #ffffff;
   text-decoration: none;
 }
-

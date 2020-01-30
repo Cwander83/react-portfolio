@@ -1,11 +1,10 @@
 .slick-slider {
   width: 85%;
-  height: 100%;
+  height: 900px;
   border: 1px solid white;
   margin: 0 auto;
   margin-top: 30px;
   background-color: rgba(0, 0, 0, 0.6);
   color: #ffffff;
+  
 }
-
-

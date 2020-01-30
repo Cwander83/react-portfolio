@@ -3,14 +3,14 @@ import Slider from "react-slick";
 
 import "./Carousel.css";
 
-import About from "../Pages/About/About";
-import Skills from "../Pages/Skills/Skills";
-import Experience from "../Pages/Experience/Experience";
-import Projects from "../Pages/Projects/Projects";
-import Education from "../Pages/Education/Education";
-import Interests from "../Pages/Interests/Interests";
-import Default from "../Pages/Default/Default";
-import Button from "../Button/Button";
+import About from "../../components/Pages/About/About";
+import Skills from "../../components/Pages/Skills/Skills";
+import Experience from "../../components/Pages/Experience/Experience";
+import Projects from "../../components/Pages/Projects/Projects";
+import Education from "../../components/Pages/Education/Education";
+import Interests from "../../components/Pages/Interests/Interests";
+import Default from "../../components/Pages/Default/Default";
+import Button from "../../components/Button/Button";
 
 class Carousel extends React.Component {
   constructor(props) {

@@ -3,8 +3,8 @@ import React, { useState } from "react";
 import "./App.css";
 
 import Title from "../components/Title/Title";
-
-import Carousel from "../components/Carousel/Carousel";
+import Footer from "../components/Footer/Footer";
+import Carousel from "./Carousel/Carousel";
 
 // import jsonData from "../assets/data.json";
 
@@ -33,6 +33,7 @@ const App = () => {
       <Title />
 
       <Carousel pages={pageState.pages} />
+      <Footer />
     </div>
   );
 };
