@@ -8,13 +8,11 @@
 }
 
 .subTitle {
-  color: #d1d1d1;
- 
+  color: white;
   text-align: left;
   margin-left: 60px;
   font-size: 22px;
 }
-
 .subTitle a:active,
 .subTitle a {
   color: #d1d1d1;

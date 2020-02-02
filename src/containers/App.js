@@ -1,4 +1,5 @@
-import React, { useState } from "react";
+// import React, { useState } from "react";
+import React from "react";
 
 import "./App.css";
 
@@ -13,17 +14,6 @@ const App = () => {
   //   data: []
   // });
 
-  const [pageState] = useState({
-    pages: [
-      { page: "about" },
-      { page: "skills" },
-      { page: "experience" },
-      { page: "projects" },
-      { page: "education" },
-      { page: "interests" }
-    ]
-  });
-
   // useEffect(() => {
   //   setData({ data: jsonData.data });
   // }, []);
@@ -31,8 +21,7 @@ const App = () => {
   return (
     <div className="App">
       <Title />
-
-      <Carousel pages={pageState.pages} />
+      <Carousel />
       <Footer />
     </div>
   );
