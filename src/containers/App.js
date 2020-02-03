@@ -10,13 +10,6 @@ import Carousel from "./Carousel/Carousel";
 // import jsonData from "../assets/data.json";
 
 const App = () => {
-  // const [data, setData] = useState({
-  //   data: []
-  // });
-
-  // useEffect(() => {
-  //   setData({ data: jsonData.data });
-  // }, []);
 
   return (
     <div className="App">

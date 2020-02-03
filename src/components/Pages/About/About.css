@@ -1,0 +1,17 @@
+.aboutParagraph {
+  width: 60%;
+  height: auto;
+  margin: 60px;
+  font-size: 20px;
+
+  letter-spacing: 0.25rem;
+  line-height: 4rem;
+  text-shadow: 1px 1px 1px rgb(175, 175, 175);
+}
+
+.left {
+  font-size: 18px;
+  color: white;
+  width: 100%;
+  margin-top: 30px;
+}

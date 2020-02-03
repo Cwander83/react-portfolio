@@ -1,0 +1,24 @@
+.linkBubble,
+.linkBubble:visited {
+  width: fit-content;
+  background-color: rgb(225, 175, 177);
+  padding: 10px 14px;
+  font-weight: 800;
+
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+  border-radius: 20px;
+  margin-top: 20px;
+  margin-bottom: 50px;
+  margin-right: 30px;
+}
+.linkBubble:hover,
+.linkBubble:active {
+  color: black;
+  font-size: 20px;
+  font-weight: 900;
+  text-decoration: none;
+  background-color: rgb(190, 137, 139);
+  box-shadow: 1px 1px 1px rgba(255, 255, 255, 0.7);
+}

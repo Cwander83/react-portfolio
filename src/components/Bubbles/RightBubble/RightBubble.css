@@ -1,0 +1,29 @@
+.rightBubble {
+  position: relative;
+  width: 60%;
+  height: auto;
+  padding: 20px;
+  margin: 60px 0;
+  background: transparent;
+  border: red solid 1px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  color: white;
+  text-align: left;
+  font-size: 20px;
+  margin-left: auto;
+}
+
+.rightBubble:after {
+  content: "";
+  position: absolute;
+  border-style: solid;
+  border-width: 20px 20px 0;
+  border-color: red transparent;
+  display: block;
+  width: 0;
+  z-index: 1;
+  bottom: -20px;
+  left: 351px;
+}

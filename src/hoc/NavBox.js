@@ -3,12 +3,14 @@ import React from "react";
 const navBox = props => {
   const navStyle = {
     display: "flex",
-    marginTop: "8%",
+    marginTop: "7%",
     textAlign: "center",
-    width: '15%',
-    marginLeft: '40px',
-    flexDirection: 'column',
-    backgroundColor: "rgba(5, 5, 5, 0.3)"
+    width: "15%",
+    marginLeft: "40px",
+    flexDirection: "column",
+    backgroundColor: "rgba(5, 5, 5, 0.3)",
+
+    position: "fixed"
   };
 
   return <div style={navStyle}>{props.children}</div>;

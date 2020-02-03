@@ -1,55 +1,46 @@
 import React from "react";
 import ContentBox from "../../../hoc/ContentBox";
+import ContentTitle from "../../ContentTitle/ContentTitle";
+import LeftBubble from "../../Bubbles/LeftBubble/LeftBubble";
+import RightBubble from "../../Bubbles/RightBubble/RightBubble";
 
 const education = () => {
   return (
     <ContentBox>
-      <h1>education</h1>
+      <ContentTitle>education</ContentTitle>
+      <LeftBubble>
+        <h3 className="contentH3">valencia college</h3>
+        <h4>Computer Programming Technical Certificate</h4>
 
-      <div className="row justify-content-between">
-        <div className="col">
-          <h3>valencia college</h3>
-          <h4>computer programming technical certificate</h4>
+        <p>
+          · I currently in the process of increasing my knowledge of Web
+          Development, as well as basic programming standards including C
+          language, flowcharts, binary, etc.
+        </p>
 
-          <p className="description">
-            I currently in the process of increasing my knowledge of Web
-            Development, as well as basic programming standards including C
-            language, flowcharts, binary, etc.
-          </p>
-        </div>
+        <p>· Graduated</p>
+      </LeftBubble>
 
-        <div className="col-4">
-          <p className="dates">Graduated</p>
-        </div>
-      </div>
-      <div className="row justify-content-between">
-        <div className="col">
-          <h3>university of central florida</h3>
-          <h4>web development boot camp</h4>
-          <p className="description">
-            In this high intensity 24 week program Full Stack Web Development.
-            We started the basics of Git, HTML, and CSS. As long the way, we
-            learned covered Databases, Backend programming, and modern Frontend
-            Programming like React and Handlebars.JS.
-          </p>
-        </div>
+      <RightBubble>
+        <h3 className="contentH3">university of central florida</h3>
+        <h4>Web Development Boot Camp</h4>
+        <p>
+          · In this high intensity 24 week program Full Stack Web Development.
+          We started the basics of Git, HTML, and CSS. As long the way, we
+          learned covered Databases, Backend programming, and modern Frontend
+          Programming like React and Handlebars.JS.
+        </p>
 
-        <div className="col-4">
-          <p className="dates">Graduated</p>
-        </div>
-      </div>
+        <p>· Graduated</p>
+      </RightBubble>
 
-      <div className="row justify-content-between">
-        <div className="col">
-          <h3>Pickerington High School</h3>
-          <h4>college prep / autocad curriculum</h4>
-          <p className="description"></p>
-        </div>
+      <LeftBubble>
+        <h3 className="contentH3">Pickerington High School</h3>
+        <h4>College Prep / Autocad Curriculum</h4>
+        <p></p>
 
-        <div className="col-4">
-          <p className="dates">Graduated</p>
-        </div>
-      </div>
+        <p>· Graduated</p>
+      </LeftBubble>
     </ContentBox>
   );
 };

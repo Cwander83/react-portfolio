@@ -2,6 +2,7 @@ import React from "react";
 import Slider from "react-slick";
 import { Spring } from "react-spring/renderprops";
 
+
 import "./Carousel.css";
 
 import About from "../../components/Pages/About/About";
@@ -12,7 +13,9 @@ import Education from "../../components/Pages/Education/Education";
 import Interests from "../../components/Pages/Interests/Interests";
 import Button from "../../components/Button/Button";
 import NavBox from "../../hoc/NavBox";
-import BodyBox from '../../hoc/BodyBox'
+import BodyBox from "../../hoc/BodyBox";
+// import NextArrow from "../../components/Arrows/NextArrow";
+// import PrevArrow from "../../components/Arrows/PrevArrow";
 
 class Carousel extends React.Component {
   constructor(props) {
@@ -20,6 +23,7 @@ class Carousel extends React.Component {
 
     this.state = {
       slideIndex: 0,
+     
       pages: [
         { page: "about" },
         { page: "skills" },
@@ -34,6 +38,8 @@ class Carousel extends React.Component {
   handleIndex = e => {
     this.slider.slickGoTo(e.target.value);
   };
+
+ 
   render() {
     const settings = {
       dots: false,
@@ -43,7 +49,7 @@ class Carousel extends React.Component {
       slidesToScroll: 1,
       arrows: false,
       beforeChange: (current, next) => this.setState({ slideIndex: next }),
-      lazyLoad: false
+      
     };
 
     // nav area connecting Button map
@@ -53,6 +59,8 @@ class Carousel extends React.Component {
           pages={this.state.pages}
           index={this.state.slideIndex}
           click={this.handleIndex}
+          
+          
         />
       </NavBox>
     );
@@ -64,7 +72,7 @@ class Carousel extends React.Component {
         <Spring
           from={{ opacity: 0 }}
           to={{ opacity: 1 }}
-          config={{ delay: 4000, duration: 500 }}
+          config={{ delay: 2500, duration: 500 }}
         >
           {spring => (
             <Slider

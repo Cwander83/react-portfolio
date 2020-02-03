@@ -12,7 +12,6 @@
   transition: all 0.5s;
   cursor: pointer;
   text-transform: capitalize;
-  
 }
 
 .button span {
@@ -46,6 +45,6 @@
   box-shadow: 0 5px #666;
   transform: translateY(4px);
 }
-/* .selected {
+.selected {
   border: 1px solid rgba(255, 255, 255, 0.2);
-} */
+}
