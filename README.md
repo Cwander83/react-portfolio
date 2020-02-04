@@ -1,2 +1,5 @@
+# My Resume Website
 
-portfolio page built with react
+live site at www.chriswander.com
+
+#### Built with React

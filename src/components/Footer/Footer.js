@@ -23,24 +23,15 @@ const footer = () => {
           >
             {springs => (
               <Auxiliary>
-                <img
-                  style={springs}
-                  src={Github}
-                  alt="github link"
-                  href="https://github.com/Cwander83"
-                />
-                <img
-                  style={springs}
-                  src={Linkedin}
-                  alt="linkedin link"
-                  href="https://www.linkedin.com/in/chris-wander-832329151/"
-                />
-                <img
-                  style={springs}
-                  src={Facebook}
-                  alt="facebook link"
-                  href="https://www.facebook.com/cwander1"
-                />
+                <a href="https://github.com/Cwander83">
+                  <img style={springs} src={Github} alt="github link" />
+                </a>
+                <a href="https://www.linkedin.com/in/chris-wander-832329151/">
+                  <img style={springs} src={Linkedin} alt="linkedin link" />
+                </a>
+                <a href="https://www.facebook.com/cwander1">
+                  <img style={springs} src={Facebook} alt="facebook link" />
+                </a>
               </Auxiliary>
             )}
           </Spring>

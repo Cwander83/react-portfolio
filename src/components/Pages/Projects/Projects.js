@@ -40,7 +40,10 @@ function Projects() {
       <RightBubble>
         <h3 className="contentH3">300 Challenge</h3>
         <h4>
-          <a className="linkBubble" href="https://github.com/Cwander83/HJM">
+          <a
+            className="linkBubble"
+            href="https://github.com/Cwander83/300-Challenge"
+          >
             GitHub
           </a>
         </h4>
@@ -63,7 +66,7 @@ function Projects() {
       <LeftBubble>
         <h3 className="contentH3">SpaceX</h3>
         <h4>
-          <a className="linkBubble" href="https://github.com/Cwander83/HJM">
+          <a className="linkBubble" href="https://github.com/Cwander83/spaceX">
             GitHub
           </a>
         </h4>
