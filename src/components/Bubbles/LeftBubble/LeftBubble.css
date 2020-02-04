@@ -29,9 +29,29 @@
   left: 351px;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 1200px) {
   .leftBubble:after {
-    left: 251px;
+    left: 300px;
+  }
+}
+@media (max-width: 1050px) {
+  .leftBubble:after {
+    left: 280px;
+  }
+}
+@media (min-width: 1400px) {
+  .leftBubble:after {
+    left: 400px;
+  }
+}
+@media (max-width: 600px) {
+  .leftBubble:after {
+    left: 190px;
+  }
+}
+@media (max-width: 900px) {
+  .leftBubble:after {
+    left: 170px;
   }
 }
 @media (max-width: 450px) {

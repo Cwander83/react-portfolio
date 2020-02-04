@@ -27,10 +27,29 @@
   bottom: -20px;
   left: 351px;
 }
-
-@media (max-width: 1024px) {
+@media (max-width: 1200px) {
   .rightBubble:after {
-    left: 251px;
+    left: 300px;
+  }
+}
+@media (max-width: 1050px) {
+  .rightBubble:after {
+    left: 280px;
+  }
+}
+@media (min-width: 1400px) {
+  .rightBubble:after {
+    left: 400px;
+  }
+}
+@media (max-width: 600px) {
+  .rightBubble:after {
+    left: 190px;
+  }
+}
+@media (max-width: 900px) {
+  .rightBubble:after {
+    left: 170px;
   }
 }
 @media (max-width: 450px) {
