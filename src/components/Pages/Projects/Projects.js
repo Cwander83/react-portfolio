@@ -20,12 +20,12 @@ function Projects() {
         <h3 className="contentH3">HJM company</h3>
         <h4>
           <a className="linkBubble" href="https://github.com/Cwander83/HJM">
-            Github repo
+            Github
           </a>
         </h4>
         <h4>
           <a className="linkBubble" href="http://hjmjanitorial.com">
-            hjmjanitorial.com
+            Hosted Site
           </a>
         </h4>
         <p>
@@ -49,7 +49,7 @@ function Projects() {
             className="linkBubble"
             href="http://limitless-harbor-65814.herokuapp.com"
           >
-            limitless-harbor-65814.herokuapp.com
+            Hosted Site
           </a>
         </h4>
         <p>
@@ -72,7 +72,7 @@ function Projects() {
             className="linkBubble"
             href="http://safe-garden-24124.herokuapp.com"
           >
-            safe-garden-24124.herokuapp.com
+            Hosted Site
           </a>
         </h4>
         <p>

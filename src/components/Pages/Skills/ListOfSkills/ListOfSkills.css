@@ -1,5 +1,3 @@
-
-
 .listsLi {
   display: inline-block;
   margin: 0;
@@ -12,4 +10,16 @@
 
 ul {
   margin: 0;
+}
+
+@media (max-width: 450px) {
+  .listsLi:first-of-type {
+    margin-left: 0;
+  }
+  .listsLi {
+    font-size: 15px;
+  }
+  ul {
+    padding-left: 18px;
+  }
 }

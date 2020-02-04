@@ -2,7 +2,6 @@ import React from "react";
 import Slider from "react-slick";
 import { Spring } from "react-spring/renderprops";
 
-
 import "./Carousel.css";
 
 import About from "../../components/Pages/About/About";
@@ -11,8 +10,8 @@ import Experience from "../../components/Pages/Experience/Experience";
 import Projects from "../../components/Pages/Projects/Projects";
 import Education from "../../components/Pages/Education/Education";
 import Interests from "../../components/Pages/Interests/Interests";
-import Button from "../../components/Button/Button";
-import NavBox from "../../hoc/NavBox";
+import Button from "../../components/NavBox/Button/Button";
+import NavBox from "../../components/NavBox/NavBox";
 import BodyBox from "../../hoc/BodyBox";
 // import NextArrow from "../../components/Arrows/NextArrow";
 // import PrevArrow from "../../components/Arrows/PrevArrow";
@@ -23,7 +22,7 @@ class Carousel extends React.Component {
 
     this.state = {
       slideIndex: 0,
-     
+
       pages: [
         { page: "about" },
         { page: "skills" },
@@ -39,7 +38,6 @@ class Carousel extends React.Component {
     this.slider.slickGoTo(e.target.value);
   };
 
- 
   render() {
     const settings = {
       dots: false,
@@ -48,8 +46,7 @@ class Carousel extends React.Component {
       slidesToShow: 1,
       slidesToScroll: 1,
       arrows: false,
-      beforeChange: (current, next) => this.setState({ slideIndex: next }),
-      
+      beforeChange: (current, next) => this.setState({ slideIndex: next })
     };
 
     // nav area connecting Button map
@@ -59,8 +56,6 @@ class Carousel extends React.Component {
           pages={this.state.pages}
           index={this.state.slideIndex}
           click={this.handleIndex}
-          
-          
         />
       </NavBox>
     );

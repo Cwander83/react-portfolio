@@ -28,3 +28,18 @@
   bottom: -20px;
   left: 351px;
 }
+
+@media (max-width: 1024px) {
+  .leftBubble:after {
+    left: 251px;
+  }
+}
+@media (max-width: 450px) {
+  .leftBubble {
+    font-size: 16px;
+    line-height: 1.5rem;
+  }
+  .leftBubble:after {
+    left: 151px;
+  }
+}

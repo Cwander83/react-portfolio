@@ -26,7 +26,7 @@ function Skills() {
     frameworks: ["React", "Angular"]
   });
   const [toolsState] = useState({
-    tools: ["Mongodb ", "MySQL", "Firebase", "AWS", "Git"]
+    tools: [  "Git","Mongodb","AWS", "MySQL", "Firebase",]
   });
 
   return (
