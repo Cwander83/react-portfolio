@@ -4,7 +4,7 @@ import { Spring } from "react-spring/renderprops";
 import "./Button.css";
 
 function button(props) {
-  console.log(props);
+  
 
   return (
     <Fragment>

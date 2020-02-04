@@ -3,7 +3,6 @@ import React from "react";
 import "./ListOfSkills.css";
 
 const listOfSkills = props => {
-  console.log(props);
   const skills = props.content.map((skill, i) => {
     return (
       <li key={i} className="listsLi">
