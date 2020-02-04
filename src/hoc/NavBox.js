@@ -8,7 +8,7 @@ const navBox = props => {
     width: "15%",
     marginLeft: "40px",
     flexDirection: "column",
-    backgroundColor: "rgba(5, 5, 5, 0.3)",
+    // backgroundColor: "rgba(5, 5, 5, 0.3)",
 
     position: "fixed"
   };
