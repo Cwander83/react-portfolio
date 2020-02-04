@@ -46,6 +46,7 @@ class Carousel extends React.Component {
       slidesToShow: 1,
       slidesToScroll: 1,
       arrows: false,
+      adaptiveHeight: true,
       beforeChange: (current, next) => this.setState({ slideIndex: next })
     };
 
