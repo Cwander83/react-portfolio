@@ -1,8 +1,12 @@
-import React from "react";
+import React, { useEffect } from "react";
 
 import "./ListOfSkills.css";
 
-const listOfSkills = props => {
+const listOfSkills = React.memo(props => {
+  useEffect(() => {
+    return () => {};
+  }, []);
+  console.log(props);
   const skills = props.content.map((skill, i) => {
     return (
       <li key={i} className="listsLi">
@@ -17,6 +21,6 @@ const listOfSkills = props => {
       {skills}
     </ul>
   );
-};
+});
 
 export default listOfSkills;

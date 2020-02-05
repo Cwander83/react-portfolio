@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect} from "react";
 
 import ContentBox from "../../../hoc/ContentBox";
 import ContentTitle from "../../ContentTitle/ContentTitle";
@@ -29,6 +29,12 @@ function Skills() {
     tools: [  "Git","Mongodb","AWS", "MySQL", "Firebase",]
   });
 
+  useEffect(() => {
+    
+    return () => {
+      
+    };
+  }, [])
   return (
     <ContentBox>
       <ContentTitle>Skills</ContentTitle>
