@@ -6,7 +6,7 @@ const listOfSkills = React.memo(props => {
   useEffect(() => {
     return () => {};
   }, []);
-  console.log(props);
+  
   const skills = props.content.map((skill, i) => {
     return (
       <li key={i} className="listsLi">
