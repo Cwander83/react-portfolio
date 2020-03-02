@@ -2,8 +2,10 @@ footer {
 	width: 100%;
 	background-color: black;
 	position: fixed;
+	left: 0;
 	bottom: 0;
-	margin-top: 30px;
+	right: 0;
+	
 	padding-top: 30px;
 	padding-bottom: 30px;
 	display: flex;
@@ -31,6 +33,16 @@ img:active {
 	}
 
 	img {
-		width: 40px;
+		width: 30px;
+	}
+}
+@media (max-height: 450px) {
+	footer {
+		padding-top: 15px;
+		padding-bottom: 25px;
+	}
+
+	img {
+		width: 30px;
 	}
 }

@@ -21,3 +21,11 @@
 	cursor: pointer;
 	margin: 5px 0;
 }
+
+
+@media (max-width: 450px) {
+	.popup {
+		top: 80px;
+		right: 20px;
+	}
+}
