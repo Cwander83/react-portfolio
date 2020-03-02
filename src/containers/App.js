@@ -15,7 +15,7 @@ const App = () => {
     <div className="App">
       <Title />
       <Carousel />
-      <Footer />
+     <Footer />
     </div>
   );
 };

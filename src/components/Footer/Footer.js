@@ -12,14 +12,14 @@ const footer = () => {
     <Spring
       from={{ opacity: 0 }}
       to={{ opacity: 1 }}
-      config={{ delay: 3000, duration: 1000 }}
+      config={{ delay: 1000, duration: 700 }}
     >
       {spring => (
         <footer style={spring}>
           <Spring
             from={{ opacity: 0 }}
             to={{ opacity: 1 }}
-            config={{ delay: 3000, duration: 1500 }}
+            config={{ delay: 2000, duration: 1500 }}
           >
             {springs => (
               <Auxiliary>

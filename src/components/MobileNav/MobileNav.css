@@ -1,0 +1,50 @@
+.hamburgerIcon {
+	width: 35px;
+	border: 1px solid white;
+	padding: 8px;
+}
+
+.menu {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	position: absolute;
+	top: 30px;
+	right: 30px;
+	cursor: pointer;
+}
+
+.menuSpan {
+	color: white;
+	font-size: 25px;
+	text-transform: uppercase;
+	vertical-align: center;
+}
+
+.spin {
+	animation-name: spin;
+	animation-duration: 1000ms;
+	animation-direction: normal;
+}
+.reverseSpin {
+	animation-name: reverseSpin;
+	animation-duration: 1000ms;
+	animation-direction: normal;
+}
+
+@keyframes spin {
+	from {
+		transform: rotate(0deg);
+	}
+	to {
+		transform: rotate(90deg);
+	}
+}
+@keyframes reverseSpin {
+	from {
+		transform: rotate(90deg);
+	}
+	to {
+		transform: rotate(0deg);
+	}
+}

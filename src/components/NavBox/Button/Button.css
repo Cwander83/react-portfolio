@@ -1,59 +1,59 @@
 .button {
-  border-radius: 4px;
-  background-color: transparent;
-  border: none;
-  color: #ffffff;
-  text-align: center;
-  font-size: 28px;
-  padding: 20px;
-  letter-spacing: 1.3px;
+	border-radius: 4px;
+	background-color: transparent;
+	border: none;
+	color: #ffffff;
+	text-align: center;
+	font-size: 28px;
+	padding: 20px;
+	letter-spacing: 1.3px;
 
-  max-width: 200px;
-  width: fit-content;
-  transition: all 0.5s;
-  cursor: pointer;
-  text-transform: capitalize;
+	max-width: 200px;
+	width: fit-content;
+	transition: all 0.5s;
+	cursor: pointer;
+	text-transform: capitalize;
 }
 
 .button span {
-  cursor: pointer;
-  display: inline-block;
-  position: relative;
-  transition: 0.5s;
-  pointer-events: none;
+	cursor: pointer;
+	display: inline-block;
+	position: relative;
+	transition: 0.5s;
+	pointer-events: none;
 }
 
 .button span:after {
-  content: "\00bb";
-  position: absolute;
-  opacity: 0;
-  top: 0;
-  right: -20px;
-  transition: 0.5s;
+	content: '\00bb';
+	position: absolute;
+	opacity: 0;
+	top: 0;
+	right: -20px;
+	transition: 0.5s;
 }
 
 .button:hover span {
-  padding-right: 25px;
+	padding-right: 25px;
 }
 
 .button:hover span:after {
-  opacity: 1;
-  right: 0;
+	opacity: 1;
+	right: 0;
 }
 
 .button:active,
 .button:focus {
-  border: 1px solid rgba(255, 255, 255, 0.2);
-  transform: translateY(4px);
+	border: 1px solid rgba(255, 255, 255, 0.2);
+	transform: translateY(4px);
 }
 
 @media (max-width: 1024px) {
-  .button {
-    font-size: 24px;
-  }
+	.button {
+		font-size: 24px;
+	}
 }
 @media (max-width: 810px) {
-  .button {
-    font-size: 22px;
-  }
+	.button {
+		font-size: 22px;
+	}
 }

@@ -10,11 +10,9 @@ import Experience from '../../components/Pages/Experience/Experience';
 import Projects from '../../components/Pages/Projects/Projects';
 import Education from '../../components/Pages/Education/Education';
 import Interests from '../../components/Pages/Interests/Interests';
-import Button from '../../components/NavBox/Button/Button';
-import NavBox from '../../components/NavBox/NavBox';
 import BodyBox from '../../hoc/BodyBox';
-// import NextArrow from "../../components/Arrows/NextArrow";
-// import PrevArrow from "../../components/Arrows/PrevArrow";
+import MobileNav from '../../components/MobileNav/MobileNav';
+
 
 class Carousel extends React.Component {
 	constructor(props) {
@@ -40,8 +38,7 @@ class Carousel extends React.Component {
 
 	render() {
 		const settings = {
-      
-      dotsClass: 'slick-dots',
+			dotsClass: 'slick-dots',
 			infinite: true,
 			speed: 800,
 			slidesToShow: 1,
@@ -52,53 +49,58 @@ class Carousel extends React.Component {
 		};
 
 		// nav area connecting Button map
-		let navBtns = (
-			<NavBox>
-				<Button
+		// let navBtns = (
+		// 	<NavBox>
+		// 		<Button
+		// 			pages={this.state.pages}
+		// 			index={this.state.slideIndex}
+		// 			click={this.handleIndex}
+		// 		/>
+		// 	</NavBox>
+		// );
+
+		return (
+			<>
+				<MobileNav
 					pages={this.state.pages}
 					index={this.state.slideIndex}
 					click={this.handleIndex}
 				/>
-			</NavBox>
-		);
-
-		return (
-			<BodyBox>
-				{navBtns}
-
-				<Spring
-					from={{ opacity: 0 }}
-					to={{ opacity: 1 }}
-					config={{ delay: 2500, duration: 500 }}
-				>
-					{spring => (
-						<Slider
-							style={spring}
-							ref={slider => (this.slider = slider)}
-							{...settings}
-						>
-							<div>
-								<About />
-							</div>
-							<div>
-								<Skills />
-							</div>
-							<div>
-								<Experience />
-							</div>
-							<div>
-								<Projects />
-							</div>
-							<div>
-								<Education />
-							</div>
-							<div>
-								<Interests />
-							</div>
-						</Slider>
-					)}
-				</Spring>
-			</BodyBox>
+				<BodyBox>
+					<Spring
+						from={{ opacity: 0 }}
+						to={{ opacity: 1 }}
+						config={{ delay: 1000, duration: 500 }}
+					>
+						{spring => (
+							<Slider
+								style={spring}
+								ref={slider => (this.slider = slider)}
+								{...settings}
+							>
+								<div>
+									<About />
+								</div>
+								<div>
+									<Skills />
+								</div>
+								<div>
+									<Experience />
+								</div>
+								<div>
+									<Projects />
+								</div>
+								<div>
+									<Education />
+								</div>
+								<div>
+									<Interests />
+								</div>
+							</Slider>
+						)}
+					</Spring>
+				</BodyBox>
+			</>
 		);
 	}
 }

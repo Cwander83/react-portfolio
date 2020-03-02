@@ -1,5 +1,5 @@
 .slick-slider {
-	width: 70%;
+	width: 90%;
 	overflow: auto;
 	height: fit-content;
 	top: 0;
@@ -8,26 +8,8 @@
 	margin-right: auto;
 	margin-bottom: 100px;
 	color: #ffffff;
-
 	text-align: center;
 	border-radius: 30px;
 	float: right;
-}
-
-@media (max-width: 1024px) {
-	.slick-slider {
-		margin-right: 5px;
-	}
-}
-@media (max-width: 1400px) {
-	.slick-slider {
-		margin-right: 25px;
-	}
-}
-
-@media (max-width: 734px) {
-	.slick-slider {
-		width: 100%;
-	}
 }
 
