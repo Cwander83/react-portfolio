@@ -4,7 +4,7 @@ import { animated } from 'react-spring/renderprops';
 import './MobileNavBody.css';
 
 const mobileNavBody = props => {
-	console.log(props);
+	
 	return (
 		<animated.div className="popup" style={props}>
 			<ul className="navUl">
