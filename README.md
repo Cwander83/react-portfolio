@@ -7,8 +7,8 @@ live site at www.chriswander.com
 ##### domain with google domains
 
 ##### fun packages i used
-react springs
-react slick carousel
+react-springs,
+react-slick-carousel
 
 
 ##### upcoming inprovements 
