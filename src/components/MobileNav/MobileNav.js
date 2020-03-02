@@ -7,7 +7,7 @@ import MenuIcon from '../../assets/icons/hamburger-menu.png';
 import MobileNavBody from './MobileNavBody/MobileNavBody';
 
 const MobileNav = props => {
-	console.log(props);
+	
 	const [open, setOpen] = useState(false);
 
 	const openNavHandler = () => {
