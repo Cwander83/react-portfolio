@@ -12,7 +12,8 @@ import Education from '../../components/Pages/Education/Education';
 import Interests from '../../components/Pages/Interests/Interests';
 import BodyBox from '../../hoc/BodyBox';
 import MobileNav from '../../components/MobileNav/MobileNav';
-
+import NavBox from '../../components/NavBox/NavBox';
+import Button from '../../components/NavBox/Button/Button';
 
 class Carousel extends React.Component {
 	constructor(props) {
@@ -48,19 +49,20 @@ class Carousel extends React.Component {
 			beforeChange: (current, next) => this.setState({ slideIndex: next }),
 		};
 
-		// nav area connecting Button map
-		// let navBtns = (
-		// 	<NavBox>
-		// 		<Button
-		// 			pages={this.state.pages}
-		// 			index={this.state.slideIndex}
-		// 			click={this.handleIndex}
-		// 		/>
-		// 	</NavBox>
-		// );
+		//  nav area connecting Button map
+		let navBtns = (
+			<NavBox>
+				<Button
+					pages={this.state.pages}
+					index={this.state.slideIndex}
+					click={this.handleIndex}
+				/>
+			</NavBox>
+		);
 
 		return (
 			<>
+				{navBtns}
 				<MobileNav
 					pages={this.state.pages}
 					index={this.state.slideIndex}

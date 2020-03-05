@@ -20,3 +20,8 @@
 		right: 0;
 	}
 }
+@media (min-width: 451px) {
+	.menu {
+		display: none;
+	}
+}

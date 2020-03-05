@@ -1,65 +1,66 @@
 .leftBubble {
-  position: relative;
-  max-width: 60%;
-  height: auto;
-  padding: 20px;
-  margin: 60px 0;
-  background: rgba(0, 0, 0, 0.6);
-  border: white solid 1px;
-  -webkit-border-radius: 10px;
-  -moz-border-radius: 10px;
-  border-radius: 10px;
-  color: white;
-  text-align: left;
-  font-size: 20px;
-  margin-right: auto;
-  line-height: 2rem;
+	position: relative;
+	max-width: 60%;
+	height: auto;
+	padding: 20px;
+	margin: 60px 0;
+	background: rgba(0, 0, 0, 0.6);
+	border: white solid 1px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+	color: white;
+	text-align: left;
+	font-size: 20px;
+	margin-right: auto;
+	line-height: 2rem;
 }
 
-.leftBubble:after {
-  content: "";
-  position: absolute;
-  border-style: solid;
-  border-width: 20px 20px 0;
-  border-color: white transparent;
-  display: block;
-  width: 0;
-  z-index: 1;
-  bottom: -20px;
-  left: 351px;
-}
+/* .leftBubble:after {
+	content: '';
+	position: absolute;
+	border-style: solid;
+	border-width: 20px 20px 0;
+	border-color: white transparent;
+	display: block;
+	width: 0;
+	z-index: 1;
+	bottom: -20px;
+	left: 351px;
+} */
 
 @media (max-width: 1200px) {
-  .leftBubble:after {
-    left: 300px;
-  }
+	.leftBubble:after {
+		left: 300px;
+	}
 }
+
 @media (max-width: 1050px) {
-  .leftBubble:after {
-    left: 280px;
-  }
+	.leftBubble:after {
+		left: 280px;
+	}
 }
 @media (min-width: 1400px) {
-  .leftBubble:after {
-    left: 400px;
-  }
+	.leftBubble:after {
+		left: 400px;
+	}
 }
 @media (max-width: 600px) {
-  .leftBubble:after {
-    left: 190px;
-  }
+	.leftBubble:after {
+		left: 190px;
+	}
 }
 @media (max-width: 900px) {
-  .leftBubble:after {
-    left: 170px;
-  }
+	.leftBubble:after {
+		left: 170px;
+	}
 }
 @media (max-width: 450px) {
-  .leftBubble {
-    font-size: 16px;
-    line-height: 1.5rem;
-  }
-  .leftBubble:after {
-    left: 151px;
-  }
+	.leftBubble {
+		font-size: 16px;
+		line-height: 1.5rem;
+	}
+	.leftBubble:after {
+		left: 151px;
+	}
 }

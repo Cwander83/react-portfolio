@@ -15,7 +15,7 @@
   margin-left: auto;
 }
 
-.rightBubble:after {
+/* .rightBubble:after {
   content: "";
   position: absolute;
   border-style: solid;
@@ -26,7 +26,7 @@
   z-index: 1;
   bottom: -20px;
   left: 351px;
-}
+} */
 @media (max-width: 1200px) {
   .rightBubble:after {
     left: 300px;

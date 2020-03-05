@@ -16,7 +16,7 @@ const button = props => {
 							props.click(i);
 						}}
 					>
-						<span>{page.page}</span>
+						{page.page}
 					</button>
 				);
 			})}
