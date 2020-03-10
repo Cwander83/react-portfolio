@@ -12,11 +12,11 @@ const education = () => {
         <h3 className="contentH3">valencia college</h3>
         <h4>Computer Programming Technical Certificate</h4>
 
-        <p>
+        {/* <p>
           · I currently in the process of increasing my knowledge of Web
           Development, as well as basic programming standards including C
           language, flowcharts, binary, etc.
-        </p>
+        </p> */}
 
         <p>· Graduated</p>
       </LeftBubble>
@@ -24,12 +24,12 @@ const education = () => {
       <RightBubble>
         <h3 className="contentH3">university of central florida</h3>
         <h4>Web Development Boot Camp</h4>
-        <p>
+        {/* <p>
           · In this high intensity 24 week program Full Stack Web Development.
           We started the basics of Git, HTML, and CSS. As long the way, we
           learned covered Databases, Backend programming, and modern Frontend
           Programming like React and Handlebars.JS.
-        </p>
+        </p> */}
 
         <p>· Graduated</p>
       </RightBubble>
