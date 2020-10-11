@@ -13,3 +13,6 @@
 	float: right;
 }
 
+.slick-slide > div > div:focus {
+	outline: none;
+}

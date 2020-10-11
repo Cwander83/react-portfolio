@@ -6,7 +6,7 @@ import ContentBox from '../../../hoc/ContentBox';
 import ContentTitle from '../../ContentTitle/ContentTitle';
 import LeftBubble from '../../Bubbles/LeftBubble/LeftBubble';
 import RightBubble from '../../Bubbles/RightBubble/RightBubble';
-import PopupIcon from '../../../assets/icons/popup.png';
+//import PopupIcon from '../../../assets/icons/popup.png';
 
 // import Project from './Project/Project'
 //
@@ -36,7 +36,7 @@ function Projects() {
 					avaliable.
 				</p>
 				<h3 className="contentH3"> Languages/Tools:</h3>
-				<p>HTML, CSS, JavaScript, jQuery, Bootstrap, Github pages</p>
+				<p>HTML, CSS, JavaScript, jQuery,React 16, Bootstrap, Github pages</p>
 			</LeftBubble>
 			<RightBubble>
 				<h3 className="contentH3">300 Challenge</h3>
@@ -65,51 +65,32 @@ function Projects() {
 				<p>React, CSS, Node.JS, MongodB, Express.JS, Mongoose, mLab, Heroku</p>
 			</RightBubble>
 			<LeftBubble>
-				<h3 className="contentH3">SpaceX</h3>
+				<h3 className="contentH3">Taco Test</h3>
 				<h4>
-					<a className="linkBubble" href="https://github.com/Cwander83/spaceX">
+					<a
+						className="linkBubble"
+						href="https://github.com/Cwander83/taco_test"
+					>
 						GitHub
 					</a>
 				</h4>
 				<h4>
 					<a
 						className="linkBubble"
-						href="http://safe-garden-24124.herokuapp.com"
+						href="https://cwander83.github.io/taco_test/"
 					>
 						Hosted Site
 					</a>
 				</h4>
 				<p>
-					This interesting little app shows all the rockets from the SpaceX
-					program. And then calls the api to display successful or unsuccessful
-					launch and extra details.
+					Using React and Cloud Firestore, I built a app with login
+					Authentication to a profile page.
 				</p>
 				<h3 className="contentH3">Languages/Tools:</h3>
-				<p>React, Node.JS, Graphql, Apollo, CSS, Express.JS, Heroku</p>
+				<p>React 16, CSS, Firebase, Git Pages </p>
 			</LeftBubble>
 		</ContentBox>
 	);
 }
 
 export default Projects;
-
-{
-	/* <h4>
-<a className="linkBubble" href="https://github.com/Cwander83/HJM">
-  Github
-</a>
-</h4>
-<h4>
-<a className="linkBubble" href="http://hjmjanitorial.com">
-  Hosted Site
-</a>
-</h4>
-<p>
-· I built this site for the Hospitality Janitorial & Maintenance
-Services Company. It was built as a static website to help find
-clients and as well as place for people to apply when positions are
-avaliable.
-</p>
-<h3 className="contentH3"> Languages/Tools:</h3>
-<p>HTML, CSS, JavaScript, jQuery, Bootstrap, Github pages</p> */
-}

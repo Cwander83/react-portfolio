@@ -2,7 +2,7 @@ import React from 'react';
 
 import './Button.css';
 
-const button = props => {
+const button = (props) => {
 	return (
 		<>
 			{props.pages.map((page, i) => {
@@ -12,7 +12,7 @@ const button = props => {
 						type="submit"
 						value={i}
 						className="button"
-						onClick={i => {
+						onClick={(i) => {
 							props.click(i);
 						}}
 					>
